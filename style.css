@@ -1,0 +1,137 @@
+body {
+    background-color: black !important;
+    padding-top: 50px;
+}
+
+#main {
+    background-color: purple;
+    background-image: linear-gradient(to right, #99ffdd, #99ddff);
+    color: white;
+    padding-top: 20px;
+    border-radius: 2%;
+}
+
+.myList-item {
+    border-radius: 25px;
+    position: relative;
+    background-color: black;
+    border-bottom: 0.5px solid white;
+    color: white;
+    font-size: 20px;
+    line-height: 22px;
+    padding: 16px 24px;
+    text-decoration: none;
+    transition: all 200ms ease;
+}
+
+.myList-item:first-letter {
+    text-transform: capitalize;
+}
+
+.myList-item span {
+    overflow-wrap: break-word;
+    display: inline;
+}
+
+ul {
+    list-style: none;
+}
+
+.item_check {
+    float: left;
+    padding-right: 5px;
+    transition: color 200ms ease;
+    font-size: 20px;
+}
+
+.item_check:hover {
+    color: #00ff99;
+}
+
+.item_delete {
+    float: right;
+    color: #1ab2ff;
+    transition: color 200ms ease;
+    font-size: 20px;
+}
+
+.item_delete:hover {
+    color: red;
+}
+
+.fa-check-circle {
+    color: #00ff99;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 490px;
+    margin: 5px 5px;
+    position: relative;
+}
+
+form,
+.div-form {
+    background-color: transparent !important;
+    border: none !important;
+    color: #0000 !important;
+}
+
+.btn-primary:hover {
+    background-color: #000 !important;
+}
+
+.btn-primary {
+    background-color: #e6ffe6 !important;
+    border: 3px double #99ffdd !important;
+    color: #1ab2ff !important;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 200ms ease;
+    outline: none;
+}
+
+input {
+    background-color: #e6ffe6 !important;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 200ms ease;
+    outline: none;
+}
+
+#date {
+    float: right;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    font-weight: normal;
+}
+
+.me {
+    color: black;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+    bottom: 0;
+}
+
+.me a {
+    font-size: 25px;
+    color: #ff6600;
+}
+
+h1 {
+    color: black;
+}
+
+h1 span {
+    float: right;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
